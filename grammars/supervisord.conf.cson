@@ -1,0 +1,11 @@
+'name': 'supervisord.conf'
+'scopeName': 'source.supervisord.conf'
+'fileTypes': [
+  'supervisord.conf'
+]
+'patterns': [
+  {
+    'match': '^\\s*;.*$'
+    'name': 'comment.block.supervisord.conf'
+  }
+]
