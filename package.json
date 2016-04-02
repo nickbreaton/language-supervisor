@@ -1,6 +1,6 @@
 {
   "name": "language-supervisor",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": false,
   "description": "Supervisor syntax highlighting",
   "repository": "https://github.com/nickbreaton/language-supervisor",
