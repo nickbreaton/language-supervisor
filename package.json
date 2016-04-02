@@ -2,7 +2,7 @@
   "name": "language-supervisor",
   "version": "0.4.0",
   "private": false,
-  "description": "Supervisor syntax highlighting",
+  "description": "Atom language support for the Supervisor process control system.",
   "repository": "https://github.com/nickbreaton/language-supervisor",
   "license": "MIT",
   "engines": {
