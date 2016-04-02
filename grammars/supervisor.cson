@@ -13,7 +13,7 @@
     'name': 'keyword.other.special-method.dockerfile'
   }
   {
-    'match': '\\\[(|program:[\\w-]*|group:[\\w-]*|fcgi-program:[\\w-]*|eventlistener:[\\w-]*|rpcinterface:[\\w-]*)\\\]'
+    'match': '\\\[(|program|group|fcgi-program|eventlistener|rpcinterface):[\\w-]*\\\]'
     'name': 'keyword.other.special-method.dockerfile'
   }
 ]
