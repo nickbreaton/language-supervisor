@@ -1,0 +1,19 @@
+'name': 'Supervisor'
+'scopeName': 'source.supervisord.conf'
+'fileTypes': [
+  'supervisord.conf'
+]
+'patterns': [
+  {
+    'match': '^\\s*;.*$'
+    'name': 'comment.block.supervisord.conf'
+  }
+  {
+    'match': '\\\[(unix_http_server|inet_http_server|supervisord|supervisorctl|include)\\\]'
+    'name': 'keyword.other.special-method.dockerfile'
+  }
+  {
+    'match': '\\\[(|program:[\\w-]*|group:[\\w-]*|fcgi-program:[\\w-]*|eventlistener:[\\w-]*|rpcinterface:[\\w-]*)\\\]'
+    'name': 'keyword.other.special-method.dockerfile'
+  }
+]
