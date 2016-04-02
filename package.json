@@ -1,6 +1,6 @@
 {
   "name": "language-supervisor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Atom language support for the Supervisor process control system.",
   "repository": "https://github.com/nickbreaton/language-supervisor",
